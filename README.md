@@ -19,11 +19,20 @@
 ## 1. 담당 구현 기능
 
 ### 1.1 채용 폼 작성 페이지
+
+![3 3 폼작성_진입](https://github.com/eun0leee/salarying-fe/assets/90189513/abc04722-4ada-4c3d-a256-5fd116443477)
+![3 5 폼작성_작성과정](https://github.com/eun0leee/salarying-fe/assets/90189513/aa55fa8f-a71d-4266-965d-28fb474cc1cd)
+![3 6 폼작성_작성완료](https://github.com/eun0leee/salarying-fe/assets/90189513/7fdc3a0b-4449-4287-b26d-510d7da4b555)
+
 - zod, react-hook-form을 활용해 모든 입력값에 대한 유효성 검사를 진행합니다.
 - 나가기 및 삭제 클릭시 채용폼관리 메인으로 이동합니다.
 - 작성완료 클릭시 api 호출돼 폼이 서버로 저장됩니다. 그 후 모달창이 뜨고 링크복사를 하거나 지원서로 이동할 수 있습니다.
 
 ### 1.2 지원자 인증 페이지
+
+![4 1 지원자인증_인증성공](https://github.com/eun0leee/salarying-fe/assets/90189513/f141c591-6e45-4228-af5f-8c6de1d4653e)
+![4 2 지원자인증_미입력](https://github.com/eun0leee/salarying-fe/assets/90189513/a3a9cf02-542d-4d0b-99d8-2917a782a205)
+
 -  zod, react-hook-form을 활용하여 이름, 휴대전화, 이메일, 인증번호 유효성 검사를 진행하고 오류시 에러메시지를 표시합니다.
 -  submit 했을 때 미입력 항목이 있으면 해당 요소로 focus 됩니다.
 -  이메일 입력값이 없으면 확인창('이메일을 입력해주세요')이 뜹니다.
@@ -33,6 +42,10 @@
 -  지원서 작성 버튼 클릭시 지원서 작성 페이지로 이동합니다.
   
 ### 1.3 지원자 작성 페이지
+
+![4 3 지원서작성_작성중](https://github.com/eun0leee/salarying-fe/assets/90189513/d84885bd-5013-4cc7-9313-7f4ea3978f32)
+![4 4 지원서작성_제출](https://github.com/eun0leee/salarying-fe/assets/90189513/d75e6fa5-f778-4257-9b62-85f28d63fa88)
+
 - zod, react-hook-form을 활용하여 모든 입력값에 대한 유효성 검사를 진행합니다.
 - submit 했을 때 모두 입력해야 다음 페이지로 이동합니다.
 - 스크롤의 움직임에 따라 사이드바가 움직입니다.
@@ -80,28 +93,24 @@ npm dev
     <tr>
        <td align="center" width="200px">
         <img width="100%" src="https://avatars.githubusercontent.com/u/83855636?v=4"  alt="유지석님"/><br />
-        <br/>
         <a href="https://github.com/yujiseok">
           <img src="https://img.shields.io/badge/팀장 : 유지석-000?style=flat-round&logo=GitHub&logoColor=white"/>
         </a>
       </td>
       <td align="center" width="200px">
         <img width="100%" src='https://avatars.githubusercontent.com/u/90189513?v=4'  alt="이은영님"/><br />
-        <br/>
         <a href="https://github.com/eun0leee">
           <img src="https://img.shields.io/badge/이은영-000?style=flat-round&logo=GitHub&logoColor=white"/>
         </a>
       </td>
       <td align="center" width="200px">
         <img width="100%" src="https://avatars.githubusercontent.com/u/113823957?v=4"  alt="이혜란님"/><br />
-       <br/>
         <a href="https://github.com/hyerani">
           <img src="https://img.shields.io/badge/이혜란-000?style=flat-round&logo=GitHub&logoColor=white"/>
         </a>
       </td>
    <td align="center" width="200px">
         <img width="100%" src="https://avatars.githubusercontent.com/u/103406196?v=4"  alt="조효림님"/><br/>
-       <br/>
         <a href="https://github.com/hyorimcho">
           <img src="https://img.shields.io/badge/조효림-000?style=flat-round&logo=GitHub&logoColor=white"/>
         </a>
@@ -111,5 +120,5 @@ npm dev
   </tbody>
 </table>
 
-* ![팀 레포지토리](https://github.com/kdt-final-3/jobkok-fe)
-* ![팀 노션](https://quickest-asterisk-75d.notion.site/3-e6ecfb1d3143440f9afa58481929ab5a?pvs=4)
+* [팀 레포지토리](https://github.com/kdt-final-3/jobkok-fe)
+* [팀 노션](https://quickest-asterisk-75d.notion.site/3-e6ecfb1d3143440f9afa58481929ab5a?pvs=4)
