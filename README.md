@@ -10,7 +10,7 @@
 
 서비스 링크 : ~~jobkok.netlify.app/~~
 
-<img width="700px" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-10_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5 00 07" src="https://user-images.githubusercontent.com/83855636/232267130-727049c5-eb9b-4ae0-9f58-faf61f86e3bf.png">
+<img width="700px" alt="JOBKOK" src="https://user-images.githubusercontent.com/83855636/232267130-727049c5-eb9b-4ae0-9f58-faf61f86e3bf.png">
 
 </div>
 
@@ -18,20 +18,15 @@
 
 ## 1. 담당 구현 기능
 
-### 1.1 채용 폼 작성 페이지
+### 1.1 지원자 인증 페이지
 
-![3 3 폼작성_진입](https://github.com/eun0leee/salarying-fe/assets/90189513/abc04722-4ada-4c3d-a256-5fd116443477)
-![3 5 폼작성_작성과정](https://github.com/eun0leee/salarying-fe/assets/90189513/aa55fa8f-a71d-4266-965d-28fb474cc1cd)
-![3 6 폼작성_작성완료](https://github.com/eun0leee/salarying-fe/assets/90189513/7fdc3a0b-4449-4287-b26d-510d7da4b555)
+| 지원자 인증 - 인증성공 | 
+| :---------: |
+| <img src="https://github.com/eun0leee/salarying-fe/assets/90189513/f141c591-6e45-4228-af5f-8c6de1d4653e" alt="인증성공" width="700px" />  |
 
-- zod, react-hook-form을 활용해 모든 입력값에 대한 유효성 검사를 진행합니다.
-- 나가기 및 삭제 클릭시 채용폼관리 메인으로 이동합니다.
-- 작성완료 클릭시 api 호출돼 폼이 서버로 저장됩니다. 그 후 모달창이 뜨고 링크복사를 하거나 지원서로 이동할 수 있습니다.
-
-### 1.2 지원자 인증 페이지
-
-![4 1 지원자인증_인증성공](https://github.com/eun0leee/salarying-fe/assets/90189513/f141c591-6e45-4228-af5f-8c6de1d4653e)
-![4 2 지원자인증_미입력](https://github.com/eun0leee/salarying-fe/assets/90189513/a3a9cf02-542d-4d0b-99d8-2917a782a205)
+| 지원자 인증 - 미입력 | 
+| :---------: |
+| <img src="https://github.com/eun0leee/salarying-fe/assets/90189513/a3a9cf02-542d-4d0b-99d8-2917a782a205" alt="미입력" width="700px" />  |
 
 -  zod, react-hook-form을 활용하여 이름, 휴대전화, 이메일, 인증번호 유효성 검사를 진행하고 오류시 에러메시지를 표시합니다.
 -  submit 했을 때 미입력 항목이 있으면 해당 요소로 focus 됩니다.
@@ -41,14 +36,39 @@
 -  지원자 중복확인 api 를 요청해 중복확인합니다.
 -  지원서 작성 버튼 클릭시 지원서 작성 페이지로 이동합니다.
   
-### 1.3 지원자 작성 페이지
+### 1.2 지원자 작성 페이지
 
-![4 3 지원서작성_작성중](https://github.com/eun0leee/salarying-fe/assets/90189513/d84885bd-5013-4cc7-9313-7f4ea3978f32)
-![4 4 지원서작성_제출](https://github.com/eun0leee/salarying-fe/assets/90189513/d75e6fa5-f778-4257-9b62-85f28d63fa88)
+| 지원서 작성 - 작성중 | 
+| :---------: |
+| <img src="https://github.com/eun0leee/salarying-fe/assets/90189513/d84885bd-5013-4cc7-9313-7f4ea3978f32" alt="미입력" width="700px" />  |
+
+| 지원서 작성 - 제출 | 
+| :---------: |
+| <img src="https://github.com/eun0leee/salarying-fe/assets/90189513/d75e6fa5-f778-4257-9b62-85f28d63fa88" alt="미입력" width="700px" />  |
 
 - zod, react-hook-form을 활용하여 모든 입력값에 대한 유효성 검사를 진행합니다.
 - submit 했을 때 모두 입력해야 다음 페이지로 이동합니다.
 - 스크롤의 움직임에 따라 사이드바가 움직입니다.
+
+### 1.3 채용 폼 생성 페이지
+
+| 채용 폼 생성 - 진입 | 
+| :---------: |
+| <img src="https://github.com/eun0leee/salarying-fe/assets/90189513/abc04722-4ada-4c3d-a256-5fd116443477" alt="진입" width="700px" />  | 
+
+| 채용 폼 생성 - 작성과정 |
+| :---------: |
+| <img src="https://github.com/eun0leee/salarying-fe/assets/90189513/aa55fa8f-a71d-4266-965d-28fb474cc1cd" alt="작성과정" width="700px" /> |
+
+| 채용 폼 생성 - 작성완료 |
+| :---------: |
+| <img src="https://github.com/eun0leee/salarying-fe/assets/90189513/7fdc3a0b-4449-4287-b26d-510d7da4b555" alt="작성완료" width="700px" /> |
+
+- 사용자가 값을 입력하자마자 즉각적으로 에러 문구를 출력하기로 했고, 이를 위해 실시간으로 값을 갱신해 주는 React-hook-form 의 onChange mode 를 사용하였습니다. 이를 통해 사용자가 submit 버튼을 누르기 전에 입력값이 유효한지 검사해줘, UX 친화적으로 구현할 수 있었습니다.
+- 입력값의 복잡한 유효성 검증은 Zod 라이브러리를 사용해 간단하게 처리했고, Typescript 와 함께 사용함으로써 타입의 안정성을 향상시켰습니다.
+- 폼의 중복 제출을 방지하기 위해, 버튼의 disabled 속성에 현재 제출 중인 상태인지 아닌지를 알아낼 수 있는 isSubmitting 값을 설정해 주었습니다.
+- 나가기 및 삭제 클릭시 채용폼관리 메인으로 이동합니다.
+- 작성완료 클릭시 api 호출돼 폼이 서버로 저장됩니다. 그 후 모달창이 뜨고 링크복사를 하거나 지원서로 이동할 수 있습니다.
 
 ## 2. 개발 환경 세팅
 ```
