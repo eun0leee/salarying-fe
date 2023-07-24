@@ -70,6 +70,8 @@
 - 나가기 및 삭제 클릭시 채용폼관리 메인으로 이동합니다.
 - 작성완료 클릭시 api 호출돼 폼이 서버로 저장됩니다. 그 후 모달창이 뜨고 링크복사를 하거나 지원서로 이동할 수 있습니다.
 
+<br/>
+
 ## 2. 개발 환경 세팅
 ```
 git clone https://github.com/eun0leee/salarying-fe.git
@@ -78,15 +80,21 @@ npm install
 npm dev
 ```
 
+<br/>
+
 ## 3. 기술 스택
 
 - vite, react, typescript, redux-toolkit, tailwindcss, axios, react-hook-form, zod, react-router-dom, react-query
+
+<br/>
 
 ## 4. 협업 방식
 
 - 공통 소통 툴: 슬랙, 노션, 게더타운
 - FE & UXUI: 피그마, 제플린
 - FE & BE: 깃헙, 포스트맨
+
+<br/>
 
 ## 5. 회고
 
@@ -105,6 +113,8 @@ npm dev
 - 타파트에 개인별 작업상황 공유가 잘 안됐던 점(담당자 찾는데 시간걸림).
 - 잡담을 더 시간내서 하지 못한 것.
 - 초반에 컴포넌트 재사용성 더 고민하지 못했던 것.
+
+<br/>
 
 ## 6. 팀원
 
