@@ -8,7 +8,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f14f6822-855c-4a25-b7d7-5c8aacecfb93/deploy-status)](https://app.netlify.com/sites/kdt-final/deploys)
 ![React](https://img.shields.io/badge/react-v18+-blue?logo=react)  
 
-서비스 링크 : ~~jobkok.netlify.app/~~
+서비스 링크 : ~~jobkok.netlify.app/~~  
+Wiki 문서 : https://github.com/eun0leee/salarying-fe/wiki
 
 <img width="700px" alt="JOBKOK" src="https://user-images.githubusercontent.com/83855636/232267130-727049c5-eb9b-4ae0-9f58-faf61f86e3bf.png">
 
@@ -151,4 +152,4 @@ npm dev
 </table>
 
 * [팀 레포지토리](https://github.com/kdt-final-3/jobkok-fe)
-* [팀 노션](https://quickest-asterisk-75d.notion.site/3-e6ecfb1d3143440f9afa58481929ab5a?pvs=4)
+* [팀 Wiki 문서](https://github.com/eun0leee/salarying-fe/wiki)
